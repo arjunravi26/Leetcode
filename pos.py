@@ -17,5 +17,5 @@ class Solution:
         return index+1
     
 obj = Solution()
-index = obj.searchInsert([1,2,3,5,7,8],6)
+index = obj.searchInsert([1,2,3,6,7,8],5)
 print(index)
