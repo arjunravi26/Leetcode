@@ -15,3 +15,7 @@ class Solution:
             if num == target or num > target:
                 return index
         return index+1
+    
+obj = Solution()
+index = obj.searchInsert([1,2,3,5,7,8],6)
+print(index)
